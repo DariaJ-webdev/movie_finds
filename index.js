@@ -1,6 +1,6 @@
 // OMDb API Configuration
 const API_KEY = "f58252f"; 
-const BASE_URL = "http://www.omdbapi.com/";
+const BASE_URL = "https://www.omdbapi.com/";
 
 // Placeholder image because they charge for posters
 const UNDRAW_MOVIE_WATCHING_IMAGE = "./undraw_movie.svg"; //
