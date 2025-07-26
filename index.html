@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <script src="https://kit.fontawesome.com/d3115057fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--navbar-->
+    <section id="navbar">
+    <nav>
+        <div class="nav-container">
+        <div class="logo-img"><i class="fa-brands fa-imdb"></i></div>
+        <ul class="nav__link--list">
+            <li><a href="#home" class="nav__link-anchor link__hover-effect link__hover-effect--black">Home</a></li>
+            <li><a href="#about" class="nav__link-anchor link__hover-effect link__hover-effect--black">About</a></li>
+            <li><a href="#movies" class="nav__link-anchor link__hover-effect link__hover-effect--black">Find Your Movie</a></li>      
+        </ul>
+        </div>
+    </nav>
+    </section>
+
+    
+    <!--banner-->
+    <div class="banner-container">
+        <div class="banner-text">
+            <h1 class="banner__header">Movie Search</h1>
+            <p class="banner__para"> Find your favorite movies with keyword or title search!</p>
+        </div>
+
+    
+
+        <!--Search bar and top 6 results-->
+    <section id="Layout2">
+        <div class="container">
+            <div class="search-elements"> <div class="input-wrapper">
+                    <input type="text" id="movie-search-input" placeholder="Search for movies...">
+                    <i class="fa-solid fa-magnifying-glass search-icon-overlay"></i>
+                </div>
+                <button id="search-button" class="button">Search</button> 
+                <button id="reset-button" class="button">Reset</button>
+        </div>
+            
+            <div id="movie-cards-wrapper" class="movie-cards-wrapper">
+                <p class="initial-message">The top six results will be shown!</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
